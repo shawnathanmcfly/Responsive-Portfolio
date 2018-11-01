@@ -1,0 +1,254 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.png");
+    background-repeat: repeat;
+}
+
+main {
+    margin: auto;
+    margin-bottom: 100px;
+    position: relative;
+    display: block;
+    padding: 20px;
+    width: 920px;
+    background-color: white;
+    line-height: 30px;
+    border: 2px solid #DDDDDD;
+    top: 145px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    overflow: auto;
+    
+}
+
+.text-block {
+    position: relative;
+    clear: both;
+    text-align: center;
+    background-color: #59AAA5;
+    bottom: 100px;
+    left: 15px;
+    max-height: 50px;
+    font-size: xx-large;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.img-link {
+    float: left;
+    max-width: 215px; 
+    max-height:209px;
+    margin: 20px 20px 20px 20px;
+}
+
+p {
+    padding-bottom: 5px;
+    
+}
+
+img {
+    padding: 15px 15px 15px 15px;
+    float: left;
+    
+}
+
+.pageTitle {
+
+    font-size: 35px;
+    font-weight: bolder;
+    color:#4aaaa5;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#headcuck {
+    float: right;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.myname {
+    float: left;
+    background-color:#4aaaa5;
+    height:100%;
+    width: 300px;
+    color: #FFFFFF;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 213px;
+    
+}
+
+
+#namea {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.pages {
+    
+    word-spacing: 10px;
+    width: 250px;
+    margin-top: 40px;
+    float: right;
+    text-align: center;
+    
+}
+
+button {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #777777;
+    padding-bottom: 5px;
+}
+
+header {
+    height: 100px;
+    z-index: 1;
+    border-bottom: 2px solid #CCCCCC;
+    background-color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-right: 0px;
+    
+}
+
+
+footer {
+    padding: 20px 20px 20px 20px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #DDDDDD;
+    
+}
+
+input, textarea {
+    
+    width: 100%;
+}
+
+textarea {
+
+    height: 200px;
+
+
+}
+
+@media (max-width: 980px){
+
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 600px;
+        
+    }
+
+    .myname {
+
+        margin-left: 20px;
+        
+    }
+
+}
+
+@media (max-width: 768px){
+
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        
+    }
+
+    .myname {
+
+        margin-left: 10px;
+        
+    }
+
+    
+
+}
+
+@media (max-width: 640px){
+
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        position: relative;
+        top: 20px;
+        
+    }
+
+    .myname {
+
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        height: 100px;
+        
+    }
+
+    header {
+        height: 200px;
+        position: relative;
+        
+    }
+
+    .pages {
+    
+        position: relative;
+        top: 40px;
+        height: 20px;
+        width: 250px;
+        margin: auto;
+        float: initial;
+        
+        
+    }
+
+
+}
